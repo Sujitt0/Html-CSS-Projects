@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar-2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        #header{
+            height: 60px;
+            width: 100vw;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: rgb(115, 115, 115);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #head{
+            font-weight: 800;
+            color: #a3dcef;
+            text-transform: uppercase;
+        }
+        #header>h3{
+            cursor: pointer;
+        }
+        #nav a{
+            padding: 10px 30px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        #nav a:hover{
+            background-color: #179fd5;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h3 id="head">Femcode Africa</h3>
+        <div id="nav">
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+</body>
+</html>

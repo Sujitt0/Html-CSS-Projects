@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/27375c8686.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #e9effb;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+      }
+      header nav a img {
+        height: 50px;
+      }
+      header .nav {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      header nav ul {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+      }
+      header nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      header nav ul li a:hover {
+        text-decoration: underline;
+        color: #259b9a;
+      }
+      .search-opt {
+        display: flex;
+        gap: 20px;
+      }
+      button {
+        color: white;
+        font-weight: bold;
+        background-color: #259b9a;
+        padding: 7px 20px;
+        border: none;
+        border-radius: 5px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+      .section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+      section .left-section {
+        width: 450px;
+      }
+      section .left-section h1{
+        font-size: 35px;
+        font-weight: bolder;
+      }
+      section .left-section h1 span{
+        font-size: 40px;
+      }
+      section .left-section span {
+        color: #259b9a;
+        font-weight: bolder;
+      }
+      section .right-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      section .right-section img {
+        height: 280px;
+      }
+      .footer {
+        display: flex;
+        justify-content: space-around;
+      }
+      footer ul {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+      }
+      footer ul li a {
+        color: #373737;
+      }
+      footer ul li a:hover {
+        color: #259b9a;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav">
+          <a href="#"><img src="./media/images/logo2.png" alt="logo" /></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="search-opt">
+            <input type="text" placeholder="Search" />
+            <button>Search</button>
+          </div>
+        </nav>
+      </header>
+      <section class="section">
+        <div class="left-section">
+          <h1>Hello, I am a <span>Web Developer</span></h1>
+          <br />
+          <p>
+            I am an aspiring <span>Full Stack JavaScript <br />Developer</span>,
+            <br />who is currently working as <span>a Freelancer</span> for
+            <br />
+            <span>National and International</span>
+            Client.
+          </p>
+        </div>
+        <div class="right-section">
+          <img src="./media/images/client-rbg.png" alt="client" />
+          <button>Chat With Us</button>
+        </div>
+      </section>
+      <footer class="footer">
+        <p>Copyright @ 2022 LOGO. All rights reserved.</p>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-github fa-xl"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

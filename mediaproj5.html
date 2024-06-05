@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media gallery</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #111827;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+      }
+      @media screen and (max-width: 425px) {
+        .nav2::after {
+          content: url("./media/images/hambrger.png");
+          background-size: 10px 20px;
+          width: 10px;
+          height: 20px;
+        }
+        .nav {
+          display: none;
+          /* height: 5vw;
+          margin-right: 3vw;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 1vw; */
+        }
+        .nav a {
+          /* text-decoration: none;
+          color: white;
+          padding: .5vw 1.5vw;
+          border-radius: 2vw;
+          font-size: 1.5vw; */
+        }
+        .nav a:hover {
+          background-color: #4e4ead;
+        }
+        .main-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5vw 0;
+          gap: 5vw;
+        }
+
+        .main-content > img {
+          height: 30vw;
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.5;
+        }
+        .hi-hand {
+          display: flex;
+          flex-direction: row;
+          gap: 1vw;
+        }
+        .hi-hand p {
+          font-size: 2vw;
+        }
+        .hi-hand img {
+          height: 2.5vw;
+        }
+        .details h2 {
+          font-size: 3vw;
+        }
+        .details h4 {
+          color: #99b524;
+          font-size: 2vw;
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .main h2 {
+          margin: 2vw 0;
+          text-align: center;
+          text-decoration: underline blue;
+          font-size: 2.5vw;
+        }
+        .container h3 {
+          text-align: center;
+          font-size: 1.5vw;
+        }
+        .box {
+          height: 24vw;
+          width: 24vw;
+          background-image: url("./media/images/image.png");
+          background-size: cover;
+        }
+        .boxes {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 2.5vw;
+        }
+        .footer {
+          margin: 2vw 0;
+          display: flex;
+          justify-content: center;
+          gap: 1.5vw;
+        }
+        .footer img {
+          height: 2vw;
+        }
+      }
+      @media screen and (min-width: 425px) {
+        .nav {
+          height: 5vw;
+          margin-right: 3vw;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 1vw;
+        }
+        .nav a {
+          text-decoration: none;
+          color: white;
+          padding: 0.5vw 1.5vw;
+          border-radius: 2vw;
+          font-size: 1.5vw;
+        }
+        .nav a:hover {
+          background-color: #4e4ead;
+        }
+        .main-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5vw 0;
+          gap: 5vw;
+        }
+
+        .main-content > img {
+          height: 30vw;
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.5;
+        }
+        .hi-hand {
+          display: flex;
+          flex-direction: row;
+          gap: 1vw;
+        }
+        .hi-hand p {
+          font-size: 2vw;
+        }
+        .hi-hand img {
+          height: 2.5vw;
+        }
+        .details h2 {
+          font-size: 3vw;
+        }
+        .details h4 {
+          color: #99b524;
+          font-size: 2vw;
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .main h2 {
+          margin: 2vw 0;
+          text-align: center;
+          text-decoration: underline blue;
+          font-size: 2.5vw;
+        }
+        .container h3 {
+          text-align: center;
+          font-size: 1.5vw;
+        }
+        .box {
+          height: 24vw;
+          width: 24vw;
+          background-image: url("./media/images/image.png");
+          background-size: cover;
+        }
+        .boxes {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 2.5vw;
+        }
+        .footer {
+          margin: 2vw 0;
+          display: flex;
+          justify-content: center;
+          gap: 1.5vw;
+        }
+        .footer img {
+          height: 2vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="nav2"></div>
+        <div class="nav">
+          <a href="#">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">Technology</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="content">
+          <div class="hi-hand">
+            <img src="./media/images/waving-hand.png" alt="" />
+            <p>Hii EveryOne</p>
+          </div>
+          <div class="details">
+            <h2>Sujit Prajapati</h2>
+            <h4>Developer</h4>
+          </div>
+        </div>
+        <img src="./media/images/pc-image.png" alt="mainimg" />
+      </div>
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="boxes">
+          <div class="box1">
+            <div class="box">
+              <!-- <img src="./media/images/image.png" alt="" /> -->
+            </div>
+            <h3>Project-1</h3>
+          </div>
+          <div class="box2">
+            <div class="box">
+              <!-- <img src="./media/images/image.png" alt="" /> -->
+            </div>
+            <h3>Project-2</h3>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box3">
+            <div class="box">
+              <!-- <img src="./media/images/image.png" alt="" /> -->
+            </div>
+            <h3>Project-3</h3>
+          </div>
+          <div class="box4">
+            <div class="box">
+              <!-- <img src="./media/images/image.png" alt="" /> -->
+            </div>
+            <h3>Project-4</h3>
+          </div>
+        </div>
+      </div>
+      <h2>Contact Me</h2>
+      <div class="footer">
+        <a href="#"><img src="./media/images/github.png" alt="" /></a>
+        <a href="#"><img src="./media/images/linkedin.png" alt="" /></a>
+        <a href="#"><img src="./media/images/outlook.png" alt="" /></a>
+      </div>
+    </div>
+  </body>
+</html>

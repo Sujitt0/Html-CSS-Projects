@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            background-image: url("./media/images/ice.png");
+        }
+        #main{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #div1{
+            height: 500px;
+            width: 350px;
+            background-color: rgba(0, 162, 255, 0.411);
+            border-radius: 10px 100px;
+            border-top: 5px solid rebeccapurple;
+            border-bottom: 5px solid rebeccapurple;
+        }
+        #div1>h1{
+            margin: 40px;
+            padding: 10px;
+            text-align: center;
+            color:rgb(12, 0, 24);
+            border-top:2px solid rebeccapurple ;
+            border-bottom:2px solid blue ;
+            border-radius: 10px 50px;
+        }
+        .lbl{
+            margin: 30px;
+            font-size: 17px;
+            font-weight: 600;
+            color:rgb(12, 0, 24);
+        }
+        .ipt{
+            margin: 30px 70px;
+            height: 30px;
+            width:  250px;
+            font-weight: 600;
+            border-radius: 5px;
+            border: none;
+            padding: 20px;
+        }
+        #btn{
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        #btn>input{
+            margin: 10px;
+            padding: 13px 30px;
+            border: none;
+            background-color: rgb(0, 0, 119);
+            color: white;
+            font-weight: 600;
+            border-radius: 20px;
+        }
+        #btn input:hover{
+            border-top:2px solid blue ;
+            border-bottom: 2px solid rebeccapurple;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="div1">
+            <h1>Sign In</h1>
+            <label class="lbl" for="name">UserName: </label>
+            <input class="ipt" type="email" placeholder="abc@gmail.com" name="name">
+            <label class="lbl" for="name">Password: </label>
+            <input class="ipt" type="password" placeholder="With abc@$123" name="name">
+            <div id="btn">
+                <input type="submit" value="SignIn">
+                <input type="button" value="SignUp">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

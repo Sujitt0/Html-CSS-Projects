@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar-3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .header{
+            height: 60px;
+            width: 100vw;
+            margin-bottom: 50px;
+            padding-left: 80px;
+            padding-right: 80px;
+            background: #06061b;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header .nav a{
+            padding: 8px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            color: white;
+        }
+        .header .nav a:hover{
+            background-color: #0000ff81;
+        }
+        .logo{
+            text-transform: uppercase;
+            font-size: large;
+        }
+        .logo:hover{
+            cursor: pointer;
+        }
+        .ipt{
+            padding: 8px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+        }
+        .ipt:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">LogoBakery</h2>
+        <div class="nav">
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+        </div>
+        <input class="ipt" type="button" value="Contact">
+    </div>
+    <div class="header">
+        <div class="nav">
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <input class="ipt" type="button" value="Contact">
+        </div>
+        <h2 class="logo">LogoBakery</h2>
+    </div>
+    <div class="header">
+        <h2 class="logo">LogoBakery</h2>
+        <div class="nav">
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+            <input class="ipt" type="button" value="Contact">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+            font-weight: 700;
+            background-color: #f7f3e9;
+        }
+        .nav{
+            display: flex;
+            gap: 50px;
+            margin: 15px 100px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .nav img:hover{
+            cursor: pointer;
+        }
+        .nav ul{
+            list-style: none;
+            display: flex;
+            gap:50px;
+        }
+        .nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        .nav ul li a:hover{
+            color: #3b855b;
+        }
+        .section{
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .left-section{
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .left-section h1{
+            font-size: 60px;
+        }
+        .left-section button{
+            padding: 10px 20px;
+            background-color: #3b855b;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            color: white;
+            align-self: flex-start;
+        }
+        .left-section button:hover{
+            cursor: pointer;
+        }
+        .right-section{
+            margin-right: 50px;
+        }
+        .right-section img{
+            height: 200px;
+            margin: 5px;
+        }
+        .right-section>img{
+            height: 165px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="nav">
+                <img src="../../images/logo.png" alt="">
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Calm Playlist</a></li>
+                    <li><a href="#">Join Calm</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section">
+            <div class="left-section">
+                <h1>Be Focus and Productive</h1>
+                <p> Not just an ordinary headphones, It's designed for meditation.</p>
+                <button>Learn more</button>
+            </div>
+            <div class="right-section">
+                <div>
+                    <img src="./media/images/img1.png" alt="">
+                    <img src="./media/images/img2.png" alt="">
+                </div>
+                <img src="./media/images/img3.png" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

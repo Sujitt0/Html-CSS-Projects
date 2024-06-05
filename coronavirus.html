@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Corona Virus | Pandemic</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        background-color: #0c374d;
+        color: #bca136;
+      }
+      .nav {
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #960001;
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .nav a {
+        padding-left: 20px;
+        text-decoration: none;
+        color: white;
+      }
+      .main{
+        display: flex;
+        justify-content: center;
+      }
+      .main .article{
+        padding: 2rem;
+        margin-top: 70px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+      .article h1{
+        text-align: center;
+        padding: 20px;
+      }
+      .main .article p {
+        text-align: justify;
+      }
+      .div-3 input{
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        color: white;
+        background-color: red;
+        border: none;
+      }
+      .div-3 img{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Health Topic</a>
+        <a href="#">Emergencies</a>
+        <a href="#">News Room</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main class="main">
+      <article class="article">
+        <div class="div-1">
+          <h1 class="heading">What is Covid-19?</h1>
+          <p>
+            Coronavirus disease (COVID-19) is an infectious disease caused by a
+            newly discovered coronavirus. Most people infected with the COVID-19
+            virus will experience mild to moderate respiratory illness and
+            recover without requiring special treatment. Older people, and those
+            with underlying medical problems like cardiovascular disease,
+            diabetes, chronic respiratory disease, and cancer are more likely to
+            develop serious illness. The best way to prevent and slow down
+            transmission is be well informed about the COVID-19 virus, the
+            disease it causes and how it spreads. Protect yourself and others
+            from infection by washing your hands or using an alcohol based rub
+            frequently and not touching your face. The COVID-19 virus spreads
+            primarily through droplets of saliva or discharge from the nose when
+            an infected person coughs or sneezes, so it’s important that you
+            also practice respiratory etiquette (for example, by coughing into a
+            flexed elbow).
+          </p>
+        </div>
+        <div class="div-2">
+          <h1 class="heading">Covid World Meter</h1>
+          <table class="table" border="1px">
+            <thead>
+              <tr>
+                <th>Country</th>
+                <th>Total Case</th>
+                <th>Active Case</th>
+                <th>Total Deaths</th>
+                <th>Total Recovered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>USA</td>
+                <td>66,317,293</td>
+                <td>22,406,963</td>
+                <td>872,667</td>
+                <td>43,037,663</td>
+              </tr>
+              <tr>
+                <td>India</td>
+                <td>36,850,962</td>
+                <td>1,417,792</td>
+                <td>485,780</td>
+                <td>34,947,390</td>
+              </tr>
+              <tr>
+                <td>Brazil</td>
+                <td>22,927,203</td>
+                <td>595,525</td>
+                <td>620,847</td>
+                <td>21,710,831</td>
+              </tr>
+              <tr>
+                <td>UK</td>
+                <td>15,147,120</td>
+                <td>3,695,847</td>
+                <td>151,899</td>
+                <td>11,299,374</td>
+              </tr>
+              <tr>
+                <td>France</td>
+                <td>13,569,675</td>
+                <td>4,453,607</td>
+                <td>126,721</td>
+                <td>8,989,347</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="div-3">
+          <h1 class="heading">Covid In India</h1>
+          <img src="./media/images/covid3.jpg" alt=""/>
+          <p>
+            India crossed 2 crores,91 lakhs novel coronavirus cases today on a
+            day the country reported over 94,000 cases, as a one-day jump. The
+            total number of cases is now 29,183,121 and the number of deaths
+            linked to the contagion is close to 359,695. India has the world's
+            second highest number right behind the United States. Data from
+            state health departments show an increase of over 6000 deaths just
+            last evening - India's coronavirus tally was 3.52 lakh deaths in the
+            morning. Over 3.59 lakh patients died due to the deadly virus in the
+            country since the beginning of the pandemic. The country's recovery
+            rate stood at 94.29 per cent this morning.
+          </p>
+          <input type="button" value="Read More" />
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

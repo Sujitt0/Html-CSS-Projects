@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scalive</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        head{
+            height: 100%;
+            width: 100%;
+        }
+        header{ 
+            background-color:lightblue;
+            text-align: center;
+            height: 150px;
+            color: white;
+        }
+        h1{
+            padding-top: 20px;
+            font-size: 30px;
+        }
+        img{
+            height: 100px;
+        }
+        span{
+            color: red;
+        }
+        .head{
+            margin: 10px auto 20px;
+        }
+        ul{
+            display:flex;
+            list-style: none;  
+            /* background-color: blue; */
+        }
+        ul li{
+            display: inline-block;
+            margin-bottom: 5px;
+            row-gap: 10px;
+        }
+        .article{
+            /* background-color: #edf9fe; */
+            margin-left: 10px;
+            height: 230px;
+            width: 170px;
+            border-radius: 10px;
+            /* border: 1px solid #000; */
+        }
+        .article:hover{
+            background-color: rgb(109, 109, 247);
+            cursor: pointer;
+            color: white;
+        }
+        .figure{
+            height: 150px;
+            width: 150px;
+            margin-left: 9px;
+            border-radius: 100%;
+        }
+        #sachin{
+            background-image:url("./media/images/sachin2.jpg");
+            background-size: cover;
+        }
+        #aftaab{
+            background-image:url("./media/images/aftaab.png");
+            background-size: cover;
+        }
+        #yash{
+            background-image:url("./media/images/yash.jpg");
+            background-size: cover;
+        }
+        #afroz{
+            background-image:url("./media/images/afroz.jpg");
+            background-size: cover;
+        }
+        #sachinv{
+            background-image:url("./media/images/sachinv.png");
+            background-size: cover;
+        }
+        .name{
+            margin-top: 10px;
+            text-align: center;
+            font-size: smaller;
+        }
+        .about{
+            margin-top: 10px;
+            text-align: center;
+            font-size: smaller;
+            color: rgb(141, 140, 140);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span>S</span>harma <span>C</span>omputer <span>A</span>cademy</h1>
+        <img src="./media/images/scaphoto-rbg.png" alt="">
+    </header>
+    <main>
+        <h3 class="head">Team <span>SCA</span></h3>
+        <ul>
+            <li>
+                <article class="article">
+                    <figure class="figure" id="sachin">
+                    </figure>
+                    <p class="name"><strong>Sachin Kapoor</strong></p>
+                    <p class="about">CEO & Lead Trainer</p>
+                </article>
+            </li>
+            <li>
+                <article class="article">
+                    <figure class="figure" id="aftaab">
+                    </figure>
+                    <p class="name"><strong>Aftaab Ahmad</strong></p>
+                    <p class="about">Senior Architect</p>
+                </article>
+            </li>
+            <li>
+                <article class="article">
+                    <figure class="figure" id="yash">
+                    </figure>
+                    <p class="name"><strong>Yash Garg</strong></p>
+                    <p class="about">Architect & Enginner</p>
+                </article>
+            </li>
+            <li>
+                <article class="article">
+                    <figure class="figure" id="afroz">
+                    </figure>
+                    <p class="name"><strong>Afroz Alam</strong></p>
+                    <p class="about">Software Development Engineer</p>
+                </article>
+            </li>
+            <li>
+                <article class="article">
+                    <figure class="figure" id="sachinv">
+                    </figure>
+                    <p class="name"><strong>Sachin Verma</strong></p>
+                    <p class="about">Lead Engineer</p>
+                </article>
+            </li>
+        </ul>
+    </main>
+    
+</body>
+</html>
